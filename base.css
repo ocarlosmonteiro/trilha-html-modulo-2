@@ -20,19 +20,147 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(168, 231, 166);
     padding: 10px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.menu ul
+{
+    justify-items: center;
+}
+.menu ul li
+{
+    list-style: none;
+    padding: 15px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    padding: 10px;
+    color: #3441f3;
+}
+.menu ul li:hover
+{
+    background-color: azure;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(222, 218, 238);
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content {
     background-color: white;
-    min-height: 300px;
+    min-height: 425px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(222, 218, 238);
+    min-height: 70px;
+    text-align: center;
+}
+.footer p a
+{
+    color: blue;
+    text-decoration: none;
+}
+.footer p a:hover
+{
+    color: black;
+}
+table
+{
+    border: solid black 1px;
+}
+table th
+{
+    border-bottom: solid black 1px;
+}
+table tr:nth-child(even)
+{
+    background-color: rgb(168, 231, 166);
+}
+table tbody tr:hover
+{
+    background-color: gray;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formContato
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.formBox
+{
+    margin: 20px 0px;
+}
+#txtNome
+{
+    height: 20px;
+    width: 200px;
+    margin: 0px 20px 0px 0px;
+}
+#txtTel
+{
+    height: 20px;
+    width: 100px;
+    margin: 0px 20px 0px 0px;
+}
+#txtEmail
+{
+    height: 20px;
+    width: 250px;
+    margin: 0px 20px 0px 0px;
+}
+.formMensagem
+{    
+    justify-content: center;
+}
+.formBoxAssunto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formBoxMensagem
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#txtAssunto
+{
+    height: 20px;
+    width: 250px;
+    margin: 10px 0px 10px 0px;
+}
+#txtArea
+{
+    height: 200px;
+    width: 550px;
+    margin: 10px 0px 10px 0px;
+}
+.botao
+{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(7, 240, 19);
+    border-radius: 13px;
+    border: none;
+}
+.botao:hover
+{
+    background-color: #3234b6;
+    cursor: pointer;
+    height: 60px;
+    width: 90px;
+    transition-delay:150ms;
 }
